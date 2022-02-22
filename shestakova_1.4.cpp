@@ -10,4 +10,5 @@ int main()
     F = Y * m1 * m2 / (r * r);
     printf("F = %le", F);
     return 0;
+
 }
