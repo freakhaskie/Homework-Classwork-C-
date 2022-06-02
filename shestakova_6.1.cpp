@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <inttypes.h>
+
+int main() 
+{
+    uint8_t n;
+    scanf("%hhd", &n);
+    uint64_t m = 1UL << n;
+    printf("2^%hhu = %" PRIu64 "\n", n, m);
+}
